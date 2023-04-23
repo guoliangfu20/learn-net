@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = DependencyInjectionScopeAndDisposableDemo
+build_property.ProjectDir = E:\code\learn-net\DependencyInjectionCoreDemo\DependencyInjectionScopeAndDisposableDemo\

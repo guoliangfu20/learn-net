@@ -1,0 +1,15 @@
+E:\code\learn-net\HelloWorld\HelloWorld\bin\Debug\net6.0\HelloWorld.exe
+E:\code\learn-net\HelloWorld\HelloWorld\bin\Debug\net6.0\HelloWorld.deps.json
+E:\code\learn-net\HelloWorld\HelloWorld\bin\Debug\net6.0\HelloWorld.runtimeconfig.json
+E:\code\learn-net\HelloWorld\HelloWorld\bin\Debug\net6.0\HelloWorld.dll
+E:\code\learn-net\HelloWorld\HelloWorld\bin\Debug\net6.0\HelloWorld.pdb
+E:\code\learn-net\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.AssemblyReference.cache
+E:\code\learn-net\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\learn-net\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfoInputs.cache
+E:\code\learn-net\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfo.cs
+E:\code\learn-net\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.CoreCompileInputs.cache
+E:\code\learn-net\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.dll
+E:\code\learn-net\HelloWorld\HelloWorld\obj\Debug\net6.0\refint\HelloWorld.dll
+E:\code\learn-net\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.pdb
+E:\code\learn-net\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.genruntimeconfig.cache
+E:\code\learn-net\HelloWorld\HelloWorld\obj\Debug\net6.0\ref\HelloWorld.dll

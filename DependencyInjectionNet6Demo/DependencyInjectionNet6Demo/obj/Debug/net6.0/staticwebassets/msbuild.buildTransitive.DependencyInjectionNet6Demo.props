@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DependencyInjectionNet6Demo.props" />
+</Project>
