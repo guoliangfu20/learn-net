@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConfigurationCommandLineDemo": {
+      "commandName": "Project",
+      "commandLineArgs": "commandKey1=value1 --commandKey2=value2 /commandKey3=value3 --commandKey4 value4 -k1=v3"
+    }
+  }
+}

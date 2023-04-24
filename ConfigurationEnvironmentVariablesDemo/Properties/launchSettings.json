@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "ConfigurationEnvironmentVariablesDemo": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "key1": "value1",
+        "key2": "value2",
+        "GUO_KEY": "guoliang",
+        "SECTION1__KEY3": "value33",
+        "SECTION1__SECTION2__KEY4": "value4"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "k79wQPZXdsDWvWSFdYSCoPXKI5Do+L3yBSPiOvEywlPTNwWG0YF0QRODHxlE/1o1FcE2Ix4W/cV8yjapzz5sEw==",
+  "success": true,
+  "projectFilePath": "E:\\code\\learn-net\\ConfigurationEnvironmentVariablesDemo\\ConfigurationEnvironmentVariablesDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\7.0.0\\microsoft.extensions.configuration.environmentvariables.7.0.0.nupkg.sha512",
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
