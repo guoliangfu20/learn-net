@@ -1,0 +1,2 @@
+{"@t":"2023-04-27T03:10:42.5391998Z","@mt":"Starting web host"}
+{"@t":"2023-04-27T03:10:44.1863477Z","@mt":"get 开始随机创建数字","@l":"Debug","SourceContext":"LoggingSerilog.Controllers.WeatherForecastController","ActionId":"9299fc24-5f05-47f3-ade5-d4b10ad2cfcf","ActionName":"LoggingSerilog.Controllers.WeatherForecastController.Get (LoggingSerilog)","RequestId":"0HMQ6PJUIOQ4R:00000001","RequestPath":"/weatherforecast","SpanId":"|d3f2c41-44f845f283630864.","TraceId":"d3f2c41-44f845f283630864","ParentId":""}

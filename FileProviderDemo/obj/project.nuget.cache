@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "OMYzT7HnPkYCTTtEtSgNgtmO0P68yrdisPz5H2gSSgKiE7nyvWb18P5/zLtOnrrCPAvEy+uO95lIk2IQCSp7Gw==",
+  "success": true,
+  "projectFilePath": "E:\\code\\learn-net\\FileProviderDemo\\FileProviderDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\microsoft.extensions.fileproviders.composite\\7.0.0\\microsoft.extensions.fileproviders.composite.7.0.0.nupkg.sha512",
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\7.0.5\\microsoft.extensions.fileproviders.embedded.7.0.5.nupkg.sha512",
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\7.0.0\\microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\7.0.0\\microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
