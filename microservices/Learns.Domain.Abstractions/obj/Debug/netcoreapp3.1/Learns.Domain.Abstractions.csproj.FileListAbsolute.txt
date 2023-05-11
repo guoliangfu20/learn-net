@@ -1,0 +1,10 @@
+E:\code\learn-net\microservices\Learns.Domain.Abstractions\bin\Debug\netcoreapp3.1\Learns.Domain.Abstractions.deps.json
+E:\code\learn-net\microservices\Learns.Domain.Abstractions\bin\Debug\netcoreapp3.1\Learns.Domain.Abstractions.dll
+E:\code\learn-net\microservices\Learns.Domain.Abstractions\bin\Debug\netcoreapp3.1\Learns.Domain.Abstractions.pdb
+E:\code\learn-net\microservices\Learns.Domain.Abstractions\obj\Debug\netcoreapp3.1\Learns.Domain.Abstractions.csproj.AssemblyReference.cache
+E:\code\learn-net\microservices\Learns.Domain.Abstractions\obj\Debug\netcoreapp3.1\Learns.Domain.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\learn-net\microservices\Learns.Domain.Abstractions\obj\Debug\netcoreapp3.1\Learns.Domain.Abstractions.AssemblyInfoInputs.cache
+E:\code\learn-net\microservices\Learns.Domain.Abstractions\obj\Debug\netcoreapp3.1\Learns.Domain.Abstractions.AssemblyInfo.cs
+E:\code\learn-net\microservices\Learns.Domain.Abstractions\obj\Debug\netcoreapp3.1\Learns.Domain.Abstractions.csproj.CoreCompileInputs.cache
+E:\code\learn-net\microservices\Learns.Domain.Abstractions\obj\Debug\netcoreapp3.1\Learns.Domain.Abstractions.dll
+E:\code\learn-net\microservices\Learns.Domain.Abstractions\obj\Debug\netcoreapp3.1\Learns.Domain.Abstractions.pdb

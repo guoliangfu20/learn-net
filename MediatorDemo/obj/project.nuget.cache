@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "p4nORuEHNYPx1StHg/H1ThG7sze/IlXjB6htRGNsDGnJble27e/ixTAPupfylXcFf6Y5yEs8elT3freSLX9lNQ==",
+  "success": true,
+  "projectFilePath": "E:\\code\\learn-net\\MediatorDemo\\MediatorDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.0.0\\mediatr.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.0\\microsoft.extensions.dependencyinjection.3.1.0.nupkg.sha512",
+    "C:\\Users\\GuoliangFu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.0\\microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

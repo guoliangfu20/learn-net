@@ -42,7 +42,7 @@
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[8.1.0, )"
             }
           },
           "imports": [
@@ -148,8 +148,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\code\\learn-net\\microservices\\Learns.Domain\\Learns.Domain.csproj": {
-                "projectPath": "E:\\code\\learn-net\\microservices\\Learns.Domain\\Learns.Domain.csproj"
+              "E:\\code\\learn-net\\microservices\\Learns.Domain.Abstractions\\Learns.Domain.Abstractions.csproj": {
+                "projectPath": "E:\\code\\learn-net\\microservices\\Learns.Domain.Abstractions\\Learns.Domain.Abstractions.csproj"
               }
             }
           }
@@ -166,15 +166,11 @@
           "dependencies": {
             "DotNetCore.CAP": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.0.0, )"
             },
             "DotNetCore.CAP.MySql": {
               "target": "Package",
-              "version": "[3.0.2, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[3.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -183,6 +179,14 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [

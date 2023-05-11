@@ -34,17 +34,21 @@ namespace Learns.Domain.Abstractions
         {
             _domainEvents?.Clear();
         }
+
         #endregion
     }
 
     public abstract class Entity<TKey> : Entity, IEntity<TKey>
     {
         int? _requestedHashCode;
+
         public virtual TKey Id { get; protected set; }
+
         public override object[] GetKeys()
         {
             return new object[] { Id };
         }
+
         public override bool Equals(object obj)
         {
             if (obj == null || !(obj is Entity<TKey>))
@@ -79,8 +83,10 @@ namespace Learns.Domain.Abstractions
         }
 
 
-
-        //表示对象是否为全新创建的，未持久化的
+        /// <summary>
+        /// 表示对象是否为全新创建的，未持久化的
+        /// </summary>
+        /// <returns></returns>
         public bool IsTransient()
         {
             return EqualityComparer<TKey>.Default.Equals(Id, default);
@@ -90,7 +96,6 @@ namespace Learns.Domain.Abstractions
         {
             return $"[Entity: {GetType().Name}] Id = {Id}";
         }
-
 
         public static bool operator ==(Entity<TKey> left, Entity<TKey> right)
         {
@@ -105,5 +110,4 @@ namespace Learns.Domain.Abstractions
             return !(left == right);
         }
     }
-
 }

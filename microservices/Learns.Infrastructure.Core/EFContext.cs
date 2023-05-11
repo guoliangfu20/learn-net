@@ -4,15 +4,13 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace Learns.Infrastructure.Core
 {
     /// <summary>
-    /// 借助这个类进行仓储层的管理
+    /// 借助 EFContext进行仓储层的管理
     /// 这里实现了工作单元；事务
     /// </summary>
     public class EFContext : DbContext, IUnitOfWork, ITransaction
@@ -20,11 +18,10 @@ namespace Learns.Infrastructure.Core
         protected IMediator _mediator;
         ICapPublisher _capBus;
 
-        public EFContext(DbContextOptions options, IMediator mediator, ICapPublisher capPublisher
-            )
+        public EFContext(DbContextOptions options, IMediator mediator, ICapPublisher capBus) : base(options)
         {
             _mediator = mediator;
-            _capBus = capPublisher;
+            _capBus = capBus;
         }
 
         #region IUnitOfWork
@@ -48,6 +45,7 @@ namespace Learns.Infrastructure.Core
         public Task<IDbContextTransaction> BeginTransactionAsync()
         {
             if (_currentTransaction != null) return null;
+            // 事件的存储与业务逻辑在同一个事务里
             _currentTransaction = Database.BeginTransaction(_capBus, autoCommit: false);
             return Task.FromResult(_currentTransaction);
         }
@@ -69,6 +67,7 @@ namespace Learns.Infrastructure.Core
             }
             finally
             {
+                // 释放事务
                 if (_currentTransaction != null)
                 {
                     _currentTransaction.Dispose();
@@ -82,6 +81,8 @@ namespace Learns.Infrastructure.Core
         {
             try
             {
+                // 先判断是否为空
+                // 不为空，则rollback
                 _currentTransaction?.Rollback();
             }
             finally

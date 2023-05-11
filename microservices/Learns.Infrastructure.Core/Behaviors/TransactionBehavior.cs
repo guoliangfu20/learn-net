@@ -1,4 +1,5 @@
-﻿using Learns.Infrastructure.Core.Extensions;
+﻿using DotNetCore.CAP;
+using Learns.Infrastructure.Core.Extensions;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -11,26 +12,26 @@ using System.Threading.Tasks;
 namespace Learns.Infrastructure.Core.Behaviors
 {
     /// <summary>
-    /// 管理事务
+    /// 事务管理
     /// </summary>
     /// <typeparam name="TDbContext"></typeparam>
     /// <typeparam name="TRequest"></typeparam>
     /// <typeparam name="TResponse"></typeparam>
-    public class TransactionBehavior<TDbContext, TRequest, TResponse>
-        : IPipelineBehavior<TRequest, TResponse>
-        where TDbContext : EFContext
+    public class TransactionBehavior<TDbContext, TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TDbContext : EFContext
     {
 
         ILogger _logger;
         TDbContext _dbContext;
-        public TransactionBehavior(TDbContext dbContext, ILogger logger)
+        ICapPublisher _capBus;
+        public TransactionBehavior(TDbContext dbContext, ICapPublisher capBus, ILogger logger)
         {
             _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
+            _capBus = capBus ?? throw new ArgumentNullException(nameof(capBus));
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
 
-        public async Task<TResponse> Handle(TRequest request, RequestHandlerDelegate<TResponse> next, CancellationToken cancellationToken)
+        public async Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate<TResponse> next)
         {
             var response = default(TResponse);
             var typeName = request.GetGenericTypeName();
@@ -52,10 +53,9 @@ namespace Learns.Infrastructure.Core.Behaviors
                     {
                         _logger.LogInformation("----- 开始事务 {TransactionId} ({@Command})", transaction.TransactionId, typeName, request);
 
-                        response = await next();
+                        response = await next();  // 后续操作(类似中间件的操作)
 
                         _logger.LogInformation("----- 提交事务 {TransactionId} {CommandName}", transaction.TransactionId, typeName);
-
 
                         await _dbContext.CommitTransactionAsync(transaction);
 

@@ -1,0 +1,10 @@
+E:\code\learn-net\microservices\Learns.BackgroundTasks\bin\Debug\netcoreapp3.1\Learns.BackgroundTasks.deps.json
+E:\code\learn-net\microservices\Learns.BackgroundTasks\bin\Debug\netcoreapp3.1\Learns.BackgroundTasks.dll
+E:\code\learn-net\microservices\Learns.BackgroundTasks\bin\Debug\netcoreapp3.1\Learns.BackgroundTasks.pdb
+E:\code\learn-net\microservices\Learns.BackgroundTasks\obj\Debug\netcoreapp3.1\Learns.BackgroundTasks.csproj.AssemblyReference.cache
+E:\code\learn-net\microservices\Learns.BackgroundTasks\obj\Debug\netcoreapp3.1\Learns.BackgroundTasks.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\learn-net\microservices\Learns.BackgroundTasks\obj\Debug\netcoreapp3.1\Learns.BackgroundTasks.AssemblyInfoInputs.cache
+E:\code\learn-net\microservices\Learns.BackgroundTasks\obj\Debug\netcoreapp3.1\Learns.BackgroundTasks.AssemblyInfo.cs
+E:\code\learn-net\microservices\Learns.BackgroundTasks\obj\Debug\netcoreapp3.1\Learns.BackgroundTasks.csproj.CoreCompileInputs.cache
+E:\code\learn-net\microservices\Learns.BackgroundTasks\obj\Debug\netcoreapp3.1\Learns.BackgroundTasks.dll
+E:\code\learn-net\microservices\Learns.BackgroundTasks\obj\Debug\netcoreapp3.1\Learns.BackgroundTasks.pdb

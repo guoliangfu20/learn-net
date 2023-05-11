@@ -43,6 +43,64 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AspNetCore.HealthChecks.MySql": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "AspNetCore.HealthChecks.Rabbitmq": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "DotNetCore.CAP.Dashboard": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "DotNetCore.CAP.RabbitMQ": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Exceptionless.AspNetCore": {
+              "target": "Package",
+              "version": "[4.3.2027, )"
+            },
+            "Exceptionless.Extensions.Logging": {
+              "target": "Package",
+              "version": "[4.3.2027, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.26.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Serilog.Sinks.Fluentd": {
+              "target": "Package",
+              "version": "[0.4.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -104,7 +162,7 @@
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[8.1.0, )"
             }
           },
           "imports": [
@@ -210,8 +268,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\code\\learn-net\\microservices\\Learns.Domain\\Learns.Domain.csproj": {
-                "projectPath": "E:\\code\\learn-net\\microservices\\Learns.Domain\\Learns.Domain.csproj"
+              "E:\\code\\learn-net\\microservices\\Learns.Domain.Abstractions\\Learns.Domain.Abstractions.csproj": {
+                "projectPath": "E:\\code\\learn-net\\microservices\\Learns.Domain.Abstractions\\Learns.Domain.Abstractions.csproj"
               }
             }
           }
@@ -228,15 +286,11 @@
           "dependencies": {
             "DotNetCore.CAP": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.0.0, )"
             },
             "DotNetCore.CAP.MySql": {
               "target": "Package",
-              "version": "[3.0.2, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[3.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -245,6 +299,14 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [

@@ -1,0 +1,17 @@
+E:\code\learn-net\microservices\Learns.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Infrastructure.deps.json
+E:\code\learn-net\microservices\Learns.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Infrastructure.dll
+E:\code\learn-net\microservices\Learns.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Infrastructure.pdb
+E:\code\learn-net\microservices\Learns.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Domain.Abstractions.dll
+E:\code\learn-net\microservices\Learns.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Domain.dll
+E:\code\learn-net\microservices\Learns.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Infrastructure.Core.dll
+E:\code\learn-net\microservices\Learns.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Domain.pdb
+E:\code\learn-net\microservices\Learns.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Infrastructure.Core.pdb
+E:\code\learn-net\microservices\Learns.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Domain.Abstractions.pdb
+E:\code\learn-net\microservices\Learns.Infrastructure\obj\Debug\netcoreapp3.1\Learns.Infrastructure.csproj.AssemblyReference.cache
+E:\code\learn-net\microservices\Learns.Infrastructure\obj\Debug\netcoreapp3.1\Learns.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\learn-net\microservices\Learns.Infrastructure\obj\Debug\netcoreapp3.1\Learns.Infrastructure.AssemblyInfoInputs.cache
+E:\code\learn-net\microservices\Learns.Infrastructure\obj\Debug\netcoreapp3.1\Learns.Infrastructure.AssemblyInfo.cs
+E:\code\learn-net\microservices\Learns.Infrastructure\obj\Debug\netcoreapp3.1\Learns.Infrastructure.csproj.CoreCompileInputs.cache
+E:\code\learn-net\microservices\Learns.Infrastructure\obj\Debug\netcoreapp3.1\Learns.Infrastructure.csproj.CopyComplete
+E:\code\learn-net\microservices\Learns.Infrastructure\obj\Debug\netcoreapp3.1\Learns.Infrastructure.dll
+E:\code\learn-net\microservices\Learns.Infrastructure\obj\Debug\netcoreapp3.1\Learns.Infrastructure.pdb

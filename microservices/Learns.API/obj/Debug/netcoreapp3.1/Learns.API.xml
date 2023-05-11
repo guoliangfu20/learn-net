@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Learns.API</name>
+    </assembly>
+    <members>
+        <member name="T:Learns.API.Application.IntegrationsEvents.OrderCreatedIntegrationEvent">
+            <summary>
+            集成事件
+            </summary>
+        </member>
+        <member name="T:Learns.API.Application.IntegrationsEvents.SubscriberService">
+            <summary>
+            订阅服务
+            </summary>
+        </member>
+    </members>
+</doc>

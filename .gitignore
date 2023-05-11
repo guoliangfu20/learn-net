@@ -1,2 +1,6 @@
 /*/.bin/
 /*/.vs/
+/microservices/.vs/
+/microservices/Learn.API/bin/
+/microservices/Learn.Core/bin/
+/microservices/Learn.Core/obj/
