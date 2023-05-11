@@ -15,7 +15,7 @@ namespace Learns.API.Extensions
         public static IServiceCollection AddMediatRServices(this IServiceCollection services)
         {
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(DomainContextTransactionBehavior<,>));
-            return services.AddMediatR(typeof(Order).Assembly, typeof(Program).Assembly);
+            return services.AddMediatR(typeof(Program).Assembly);
         }
         public static IServiceCollection AddDomainContext(this IServiceCollection services, Action<DbContextOptionsBuilder> optionsAction)
         {
@@ -39,7 +39,6 @@ namespace Learns.API.Extensions
         public static IServiceCollection AddRepositories(this IServiceCollection services)
         {
             services.AddScoped<IOrderRepository, OrderRepository>();
-            services.AddScoped<IUserRespository, UserRepository>();
             return services;
         }
 
@@ -54,9 +53,9 @@ namespace Learns.API.Extensions
                 options.UseEntityFramework<DomainContext>();
 
                 // 使用 rabbitmq 作为消息队列的存储
-                options.UseRabbitMQ(options =>
+                options.UseRabbitMQ(opt =>
                 {
-                    configuration.GetSection("RabbitMQ").Bind(options);
+                    configuration.GetSection("RabbitMQ").Bind(opt);
                 });
                 //options.UseDashboard();
             });

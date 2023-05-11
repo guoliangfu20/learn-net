@@ -4,3 +4,13 @@
 /microservices/Learn.API/bin/
 /microservices/Learn.Core/bin/
 /microservices/Learn.Core/obj/
+
+/MediatorDemo/bin/
+/MediatorDemo/obj/
+
+
+/HttpClientFactoryDemo/bin/
+/HttpClientFactoryDemo/obj/
+/RemoteSiteTest/obj/
+/RemoteSiteTest/obj/
+

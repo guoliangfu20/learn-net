@@ -6,6 +6,7 @@ E:\code\learn-net\microservices\Learns.API\bin\Debug\netcoreapp3.1\Learns.API.ru
 E:\code\learn-net\microservices\Learns.API\bin\Debug\netcoreapp3.1\Learns.API.runtimeconfig.dev.json
 E:\code\learn-net\microservices\Learns.API\bin\Debug\netcoreapp3.1\Learns.API.dll
 E:\code\learn-net\microservices\Learns.API\bin\Debug\netcoreapp3.1\Learns.API.pdb
+E:\code\learn-net\microservices\Learns.API\bin\Debug\netcoreapp3.1\Learns.API.xml
 E:\code\learn-net\microservices\Learns.API\bin\Debug\netcoreapp3.1\HealthChecks.MySql.dll
 E:\code\learn-net\microservices\Learns.API\bin\Debug\netcoreapp3.1\HealthChecks.Rabbitmq.dll
 E:\code\learn-net\microservices\Learns.API\bin\Debug\netcoreapp3.1\Consul.dll
@@ -110,7 +111,6 @@ E:\code\learn-net\microservices\Learns.API\obj\Debug\netcoreapp3.1\staticwebasse
 E:\code\learn-net\microservices\Learns.API\obj\Debug\netcoreapp3.1\Learns.API.RazorTargetAssemblyInfo.cache
 E:\code\learn-net\microservices\Learns.API\obj\Debug\netcoreapp3.1\Learns.API.csproj.CopyComplete
 E:\code\learn-net\microservices\Learns.API\obj\Debug\netcoreapp3.1\Learns.API.dll
+E:\code\learn-net\microservices\Learns.API\obj\Debug\netcoreapp3.1\Learns.API.xml
 E:\code\learn-net\microservices\Learns.API\obj\Debug\netcoreapp3.1\Learns.API.pdb
 E:\code\learn-net\microservices\Learns.API\obj\Debug\netcoreapp3.1\Learns.API.genruntimeconfig.cache
-E:\code\learn-net\microservices\Learns.API\bin\Debug\netcoreapp3.1\Learns.API.xml
-E:\code\learn-net\microservices\Learns.API\obj\Debug\netcoreapp3.1\Learns.API.xml

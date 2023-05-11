@@ -86,7 +86,6 @@ namespace Learns.API
                 //domainContext.Database.EnsureCreated();  // 若是数据库没有创建，此处会执行创建
             }
 
-
             //using (var scope = app.ApplicationServices.CreateScope())
             //{
             //    var domainContext = scope.ServiceProvider.GetService<OrderingContext>();

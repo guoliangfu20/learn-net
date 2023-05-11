@@ -19,12 +19,15 @@ namespace MediatorDemo
             var mediator = serviceProvider.GetService<IMediator>();
 
 
-            mediator.Send(new MyCommand { CommandName = "Command111" });
+            //mediator.Send(new MyCommand { CommandName = "Command111" });
+
+            //mediator.Publish(new MyEvent { EventName = "event..." });
 
             Console.WriteLine("hello world");
         }
     }
 
+    #region IRequest IRequestHandler
     internal class MyCommand : IRequest<long>
     {
         public string CommandName { get; set; }
@@ -48,6 +51,32 @@ namespace MediatorDemo
             return Task.FromResult(10L);
         }
     }
+    #endregion
 
-    
+
+    #region INotification INotificationHandler
+    internal class MyEvent : INotification
+    {
+        public string EventName { get; set; }
+    }
+
+    internal class MyEventHandler : INotificationHandler<MyEvent>
+    {
+        public Task Handle(MyEvent notification, CancellationToken cancellationToken)
+        {
+            Console.WriteLine($"MyEventHandler执行：{notification.EventName}");
+            return Task.CompletedTask;
+        }
+    }
+
+    internal class MyEventHandlerV2 : INotificationHandler<MyEvent>
+    {
+        public Task Handle(MyEvent notification, CancellationToken cancellationToken)
+        {
+            Console.WriteLine($"MyEventHandler V2 执行：{notification.EventName}");
+            return Task.CompletedTask;
+        }
+    }
+    #endregion
+
 }

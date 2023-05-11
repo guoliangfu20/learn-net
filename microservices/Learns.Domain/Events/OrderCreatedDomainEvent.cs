@@ -6,6 +6,9 @@ using System.Text;
 
 namespace Learns.Domain.Events
 {
+    /// <summary>
+    /// 领域事件定义在领域模型了
+    /// </summary>
     public class OrderCreatedDomainEvent : IDomainEvent
     {
         public Order Order { get; private set; }

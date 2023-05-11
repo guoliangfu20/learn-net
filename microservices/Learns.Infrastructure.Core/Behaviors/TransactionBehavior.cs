@@ -38,6 +38,9 @@ namespace Learns.Infrastructure.Core.Behaviors
 
             try
             {
+                // 判断的含义：
+                // 如果事务开启，则继续执行后面的逻辑
+                // 如果事务未开启，下面代码尝试开启事务，并执行
                 if (_dbContext.HasActiveTransaction)
                 {
                     return await next();
