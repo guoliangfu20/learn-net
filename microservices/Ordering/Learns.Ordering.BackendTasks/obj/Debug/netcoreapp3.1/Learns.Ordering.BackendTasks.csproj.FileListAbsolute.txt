@@ -1,0 +1,10 @@
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.BackendTasks\bin\Debug\netcoreapp3.1\Learns.Ordering.BackendTasks.deps.json
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.BackendTasks\bin\Debug\netcoreapp3.1\Learns.Ordering.BackendTasks.dll
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.BackendTasks\bin\Debug\netcoreapp3.1\Learns.Ordering.BackendTasks.pdb
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.BackendTasks\obj\Debug\netcoreapp3.1\Learns.Ordering.BackendTasks.csproj.AssemblyReference.cache
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.BackendTasks\obj\Debug\netcoreapp3.1\Learns.Ordering.BackendTasks.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.BackendTasks\obj\Debug\netcoreapp3.1\Learns.Ordering.BackendTasks.AssemblyInfoInputs.cache
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.BackendTasks\obj\Debug\netcoreapp3.1\Learns.Ordering.BackendTasks.AssemblyInfo.cs
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.BackendTasks\obj\Debug\netcoreapp3.1\Learns.Ordering.BackendTasks.csproj.CoreCompileInputs.cache
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.BackendTasks\obj\Debug\netcoreapp3.1\Learns.Ordering.BackendTasks.dll
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.BackendTasks\obj\Debug\netcoreapp3.1\Learns.Ordering.BackendTasks.pdb

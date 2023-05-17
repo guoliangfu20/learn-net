@@ -59,6 +59,19 @@ namespace Learns.API
             //    options.KnownProxies.Clear();
             //    options.ForwardedHeaders = ForwardedHeaders.All;
             //});
+
+
+            // ÔÊÐí¿çÓòÉèÖÃ
+            services.AddCors(options =>
+            {
+                options.AddPolicy("api", builder =>
+                {
+                    builder.WithOrigins("https://localhost:5001").AllowAnyHeader().AllowCredentials().WithExposedHeaders("abc");
+
+                    builder.SetIsOriginAllowed(orgin => true).AllowCredentials().AllowAnyHeader();
+                });
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

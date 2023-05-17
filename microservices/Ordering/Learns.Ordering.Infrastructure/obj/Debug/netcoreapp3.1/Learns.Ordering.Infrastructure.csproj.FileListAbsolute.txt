@@ -1,0 +1,17 @@
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Ordering.Infrastructure.deps.json
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Ordering.Infrastructure.dll
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Ordering.Infrastructure.pdb
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Domain.Abstractions.dll
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Infrastructure.Core.dll
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Ordering.Domain.dll
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Infrastructure.Core.pdb
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Ordering.Domain.pdb
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Infrastructure\bin\Debug\netcoreapp3.1\Learns.Domain.Abstractions.pdb
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Infrastructure\obj\Debug\netcoreapp3.1\Learns.Ordering.Infrastructure.csproj.AssemblyReference.cache
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Infrastructure\obj\Debug\netcoreapp3.1\Learns.Ordering.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Infrastructure\obj\Debug\netcoreapp3.1\Learns.Ordering.Infrastructure.AssemblyInfoInputs.cache
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Infrastructure\obj\Debug\netcoreapp3.1\Learns.Ordering.Infrastructure.AssemblyInfo.cs
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Infrastructure\obj\Debug\netcoreapp3.1\Learns.Ordering.Infrastructure.csproj.CoreCompileInputs.cache
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Infrastructure\obj\Debug\netcoreapp3.1\Learns.Ordering.Infrastructure.csproj.CopyComplete
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Infrastructure\obj\Debug\netcoreapp3.1\Learns.Ordering.Infrastructure.dll
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Infrastructure\obj\Debug\netcoreapp3.1\Learns.Ordering.Infrastructure.pdb

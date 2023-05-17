@@ -1,0 +1,358 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.API\\Learns.Ordering.API.csproj": {}
+  },
+  "projects": {
+    "E:\\code\\learn-net\\microservices\\Learns.Domain.Abstractions\\Learns.Domain.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\code\\learn-net\\microservices\\Learns.Domain.Abstractions\\Learns.Domain.Abstractions.csproj",
+        "projectName": "Learns.Domain.Abstractions",
+        "projectPath": "E:\\code\\learn-net\\microservices\\Learns.Domain.Abstractions\\Learns.Domain.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\GuoliangFu\\.nuget\\packages\\",
+        "outputPath": "E:\\code\\learn-net\\microservices\\Learns.Domain.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GuoliangFu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\code\\learn-net\\microservices\\Learns.Infrastructure.Core\\Learns.Infrastructure.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\code\\learn-net\\microservices\\Learns.Infrastructure.Core\\Learns.Infrastructure.Core.csproj",
+        "projectName": "Learns.Infrastructure.Core",
+        "projectPath": "E:\\code\\learn-net\\microservices\\Learns.Infrastructure.Core\\Learns.Infrastructure.Core.csproj",
+        "packagesPath": "C:\\Users\\GuoliangFu\\.nuget\\packages\\",
+        "outputPath": "E:\\code\\learn-net\\microservices\\Learns.Infrastructure.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GuoliangFu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\code\\learn-net\\microservices\\Learns.Domain.Abstractions\\Learns.Domain.Abstractions.csproj": {
+                "projectPath": "E:\\code\\learn-net\\microservices\\Learns.Domain.Abstractions\\Learns.Domain.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "DotNetCore.CAP": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "DotNetCore.CAP.MySql": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.API\\Learns.Ordering.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.API\\Learns.Ordering.API.csproj",
+        "projectName": "Learns.Ordering.API",
+        "projectPath": "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.API\\Learns.Ordering.API.csproj",
+        "packagesPath": "C:\\Users\\GuoliangFu\\.nuget\\packages\\",
+        "outputPath": "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GuoliangFu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.Domain\\Learns.Ordering.Domain.csproj": {
+                "projectPath": "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.Domain\\Learns.Ordering.Domain.csproj"
+              },
+              "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.Infrastructure\\Learns.Ordering.Infrastructure.csproj": {
+                "projectPath": "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.Infrastructure\\Learns.Ordering.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "DotNetCore.CAP.Dashboard": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.26.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.Domain\\Learns.Ordering.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.Domain\\Learns.Ordering.Domain.csproj",
+        "projectName": "Learns.Ordering.Domain",
+        "projectPath": "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.Domain\\Learns.Ordering.Domain.csproj",
+        "packagesPath": "C:\\Users\\GuoliangFu\\.nuget\\packages\\",
+        "outputPath": "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GuoliangFu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\code\\learn-net\\microservices\\Learns.Domain.Abstractions\\Learns.Domain.Abstractions.csproj": {
+                "projectPath": "E:\\code\\learn-net\\microservices\\Learns.Domain.Abstractions\\Learns.Domain.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.Infrastructure\\Learns.Ordering.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.Infrastructure\\Learns.Ordering.Infrastructure.csproj",
+        "projectName": "Learns.Ordering.Infrastructure",
+        "projectPath": "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.Infrastructure\\Learns.Ordering.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\GuoliangFu\\.nuget\\packages\\",
+        "outputPath": "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GuoliangFu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\code\\learn-net\\microservices\\Learns.Infrastructure.Core\\Learns.Infrastructure.Core.csproj": {
+                "projectPath": "E:\\code\\learn-net\\microservices\\Learns.Infrastructure.Core\\Learns.Infrastructure.Core.csproj"
+              },
+              "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.Domain\\Learns.Ordering.Domain.csproj": {
+                "projectPath": "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.Domain\\Learns.Ordering.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

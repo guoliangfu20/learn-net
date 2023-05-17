@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Learns.Infrastructure.Core\Learns.Infrastructure.Core.csproj" />
+    <ProjectReference Include="..\Learns.Ordering.Domain\Learns.Ordering.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

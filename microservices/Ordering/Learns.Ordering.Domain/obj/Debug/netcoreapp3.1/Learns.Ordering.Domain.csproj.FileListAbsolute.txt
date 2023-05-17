@@ -1,0 +1,13 @@
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Domain\bin\Debug\netcoreapp3.1\Learns.Ordering.Domain.deps.json
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Domain\bin\Debug\netcoreapp3.1\Learns.Ordering.Domain.dll
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Domain\bin\Debug\netcoreapp3.1\Learns.Ordering.Domain.pdb
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Domain\bin\Debug\netcoreapp3.1\Learns.Domain.Abstractions.dll
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Domain\bin\Debug\netcoreapp3.1\Learns.Domain.Abstractions.pdb
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Domain\obj\Debug\netcoreapp3.1\Learns.Ordering.Domain.csproj.AssemblyReference.cache
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Domain\obj\Debug\netcoreapp3.1\Learns.Ordering.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Domain\obj\Debug\netcoreapp3.1\Learns.Ordering.Domain.AssemblyInfoInputs.cache
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Domain\obj\Debug\netcoreapp3.1\Learns.Ordering.Domain.AssemblyInfo.cs
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Domain\obj\Debug\netcoreapp3.1\Learns.Ordering.Domain.csproj.CoreCompileInputs.cache
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Domain\obj\Debug\netcoreapp3.1\Learns.Ordering.Domain.csproj.CopyComplete
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Domain\obj\Debug\netcoreapp3.1\Learns.Ordering.Domain.dll
+E:\code\learn-net\microservices\Ordering\Learns.Ordering.Domain\obj\Debug\netcoreapp3.1\Learns.Ordering.Domain.pdb
