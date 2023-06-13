@@ -1,0 +1,15 @@
+E:\code\learn-net\LearnDemos\bin\Debug\net6.0\LearnDemos.exe
+E:\code\learn-net\LearnDemos\bin\Debug\net6.0\LearnDemos.deps.json
+E:\code\learn-net\LearnDemos\bin\Debug\net6.0\LearnDemos.runtimeconfig.json
+E:\code\learn-net\LearnDemos\bin\Debug\net6.0\LearnDemos.dll
+E:\code\learn-net\LearnDemos\bin\Debug\net6.0\LearnDemos.pdb
+E:\code\learn-net\LearnDemos\obj\Debug\net6.0\LearnDemos.csproj.AssemblyReference.cache
+E:\code\learn-net\LearnDemos\obj\Debug\net6.0\LearnDemos.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\learn-net\LearnDemos\obj\Debug\net6.0\LearnDemos.AssemblyInfoInputs.cache
+E:\code\learn-net\LearnDemos\obj\Debug\net6.0\LearnDemos.AssemblyInfo.cs
+E:\code\learn-net\LearnDemos\obj\Debug\net6.0\LearnDemos.csproj.CoreCompileInputs.cache
+E:\code\learn-net\LearnDemos\obj\Debug\net6.0\LearnDemos.dll
+E:\code\learn-net\LearnDemos\obj\Debug\net6.0\refint\LearnDemos.dll
+E:\code\learn-net\LearnDemos\obj\Debug\net6.0\LearnDemos.pdb
+E:\code\learn-net\LearnDemos\obj\Debug\net6.0\LearnDemos.genruntimeconfig.cache
+E:\code\learn-net\LearnDemos\obj\Debug\net6.0\ref\LearnDemos.dll
