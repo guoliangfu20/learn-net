@@ -6435,7 +6435,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GuoliangFu\\.nuget\\packages\\": {}
+    "C:\\Users\\fglon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -6443,11 +6443,11 @@
       "projectUniqueName": "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.API\\Learns.Ordering.API.csproj",
       "projectName": "Learns.Ordering.API",
       "projectPath": "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.API\\Learns.Ordering.API.csproj",
-      "packagesPath": "C:\\Users\\GuoliangFu\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\fglon\\.nuget\\packages\\",
       "outputPath": "E:\\code\\learn-net\\microservices\\Ordering\\Learns.Ordering.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\GuoliangFu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fglon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6455,6 +6455,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6516,7 +6517,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

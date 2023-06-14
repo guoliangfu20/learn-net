@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SKvAi85Tfz9YsBdYK0oQ+7xlu1Sdy89R1MSfzfjoobm/KOxNSUJJbsULf1aJeKGvHwOBCIBB67eg+TEhjuhsPw==",
+  "dgSpecHash": "M6hwEhMEKRhsttqi9sDuhDiRdbYIyCZ3TbVY2MczYrp28fG4ZHiu/UdAlpLZZ31k1SXuOMb+Vou37RLZ5UC6LQ==",
   "success": true,
   "projectFilePath": "E:\\code\\learn-net\\microservices\\Learns.Domain\\Learns.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\GuoliangFu\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512"
+    "C:\\Users\\fglon\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512"
   ],
   "logs": []
 }

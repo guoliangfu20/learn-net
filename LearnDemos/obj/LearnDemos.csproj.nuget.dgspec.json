@@ -10,11 +10,11 @@
         "projectUniqueName": "E:\\code\\learn-net\\LearnDemos\\LearnDemos.csproj",
         "projectName": "LearnDemos",
         "projectPath": "E:\\code\\learn-net\\LearnDemos\\LearnDemos.csproj",
-        "packagesPath": "C:\\Users\\GuoliangFu\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\fglon\\.nuget\\packages\\",
         "outputPath": "E:\\code\\learn-net\\LearnDemos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\GuoliangFu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fglon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
