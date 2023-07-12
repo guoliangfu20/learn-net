@@ -1,0 +1,15 @@
+E:\codes\learn-net\LearnsTest\LearnsTest\bin\Debug\net6.0\LearnsTest.exe
+E:\codes\learn-net\LearnsTest\LearnsTest\bin\Debug\net6.0\LearnsTest.deps.json
+E:\codes\learn-net\LearnsTest\LearnsTest\bin\Debug\net6.0\LearnsTest.runtimeconfig.json
+E:\codes\learn-net\LearnsTest\LearnsTest\bin\Debug\net6.0\LearnsTest.dll
+E:\codes\learn-net\LearnsTest\LearnsTest\bin\Debug\net6.0\LearnsTest.pdb
+E:\codes\learn-net\LearnsTest\LearnsTest\obj\Debug\net6.0\LearnsTest.csproj.AssemblyReference.cache
+E:\codes\learn-net\LearnsTest\LearnsTest\obj\Debug\net6.0\LearnsTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\codes\learn-net\LearnsTest\LearnsTest\obj\Debug\net6.0\LearnsTest.AssemblyInfoInputs.cache
+E:\codes\learn-net\LearnsTest\LearnsTest\obj\Debug\net6.0\LearnsTest.AssemblyInfo.cs
+E:\codes\learn-net\LearnsTest\LearnsTest\obj\Debug\net6.0\LearnsTest.csproj.CoreCompileInputs.cache
+E:\codes\learn-net\LearnsTest\LearnsTest\obj\Debug\net6.0\LearnsTest.dll
+E:\codes\learn-net\LearnsTest\LearnsTest\obj\Debug\net6.0\refint\LearnsTest.dll
+E:\codes\learn-net\LearnsTest\LearnsTest\obj\Debug\net6.0\LearnsTest.pdb
+E:\codes\learn-net\LearnsTest\LearnsTest\obj\Debug\net6.0\LearnsTest.genruntimeconfig.cache
+E:\codes\learn-net\LearnsTest\LearnsTest\obj\Debug\net6.0\ref\LearnsTest.dll

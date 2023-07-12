@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\code\\learn-net\\EFCoreDemo\\EFCoreDemo\\EFCoreDemo.csproj": {}
+    "E:\\codes\\learn-net\\EFCoreDemo\\EFCoreDemo\\EFCoreDemo.csproj": {}
   },
   "projects": {
-    "E:\\code\\learn-net\\EFCoreDemo\\EFCoreDemo\\EFCoreDemo.csproj": {
+    "E:\\codes\\learn-net\\EFCoreDemo\\EFCoreDemo\\EFCoreDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\code\\learn-net\\EFCoreDemo\\EFCoreDemo\\EFCoreDemo.csproj",
+        "projectUniqueName": "E:\\codes\\learn-net\\EFCoreDemo\\EFCoreDemo\\EFCoreDemo.csproj",
         "projectName": "EFCoreDemo",
-        "projectPath": "E:\\code\\learn-net\\EFCoreDemo\\EFCoreDemo\\EFCoreDemo.csproj",
-        "packagesPath": "C:\\Users\\fglon\\.nuget\\packages\\",
-        "outputPath": "E:\\code\\learn-net\\EFCoreDemo\\EFCoreDemo\\obj\\",
+        "projectPath": "E:\\codes\\learn-net\\EFCoreDemo\\EFCoreDemo\\EFCoreDemo.csproj",
+        "packagesPath": "C:\\Users\\fuguoliang\\.nuget\\packages\\",
+        "outputPath": "E:\\codes\\learn-net\\EFCoreDemo\\EFCoreDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fglon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fuguoliang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
