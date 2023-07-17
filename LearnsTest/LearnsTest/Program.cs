@@ -2,6 +2,7 @@
 //Console.WriteLine("Hello, World!");
 
 
+using System;
 using System.Collections;
 
 /*
@@ -65,6 +66,7 @@ catch (Exception ex)
 }
 */
 
+/*
 Employee emp1 = new Employee();
 emp1.name = "张三";
 emp1.depart = "T1";
@@ -78,11 +80,76 @@ emp2.empAddress.address = "美国芝加哥";
 emp1.empAddress.address = "河南驻马店";
 
 emp1.empAddress = new Address() { address = "云南大理" };
+*/
 
+/*
+Employee e = null;
+Employee f = new Employee() { name = "zhanglang" };
+
+Employee f2 = e ?? f;
+
+var d = f?.name;
+var g = e?.name;
+Console.WriteLine(d + "--" + g);
+*/
+
+//int[] arr = { 4, 6, -2, 3, 1, 5 };
+//Bubbling(arr);
+
+//Console.WriteLine(Fibonacci(5));
+
+Console.WriteLine("enter the nums: ");
+string next = Console.ReadLine();
+while (next != null)
+{
+    if (next.Equals("q")) break;
+
+    int n = Convert.ToInt32(next);
+    Console.WriteLine($"the Fibonacci is:{Fibonacci(n)}");
+    next = Console.ReadLine();
+}
+
+
+void Bubbling(int[] arrs)
+{
+    if (arrs == null) return;
+
+    for (int i = 0; i < arrs.Length - 1; i++)
+    {
+        for (int j = 0; j < arrs.Length - 1 - i; j++)
+        {
+            if (arrs[j] > arrs[j + 1])
+            {
+                int temp = arrs[j];
+                arrs[j] = arrs[j + 1];
+                arrs[j + 1] = temp;
+            }
+        }
+    }
+
+    for (int k = 0; k < arrs.Length; k++)
+    {
+        Console.WriteLine(arrs[k]);
+    }
+}
+
+int Fibonacci(int num)
+{
+    // 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89…
+    if (num <= 0) return 0;
+    if (num == 1 || num == 2) return 1;
+
+    return Fibonacci(num - 1) + Fibonacci(num - 2);
+}
 
 Console.ReadKey();
 
-
+static bool IsInt(object obj)
+{
+    if (obj == null) return false;
+    bool res = Int32.TryParse(obj.ToString(), out int nnn);
+    return res;
+}
 
 class Employee
 {
