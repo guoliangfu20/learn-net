@@ -1,0 +1,12 @@
+E:\codes\learn-net\SpaceCode\SpaceCodeModel\bin\Release\SpaceCodeModel.dll.config
+E:\codes\learn-net\SpaceCode\SpaceCodeModel\bin\Release\SpaceCodeModel.dll
+E:\codes\learn-net\SpaceCode\SpaceCodeModel\bin\Release\SpaceCodeModel.pdb
+E:\codes\learn-net\SpaceCode\SpaceCodeModel\bin\Release\EntityFramework.dll
+E:\codes\learn-net\SpaceCode\SpaceCodeModel\bin\Release\EntityFramework.SqlServer.dll
+E:\codes\learn-net\SpaceCode\SpaceCodeModel\bin\Release\EntityFramework.xml
+E:\codes\learn-net\SpaceCode\SpaceCodeModel\bin\Release\EntityFramework.SqlServer.xml
+E:\codes\learn-net\SpaceCode\SpaceCodeModel\obj\Release\SpaceCodeModel.csproj.AssemblyReference.cache
+E:\codes\learn-net\SpaceCode\SpaceCodeModel\obj\Release\SpaceCodeModel.csproj.CoreCompileInputs.cache
+E:\codes\learn-net\SpaceCode\SpaceCodeModel\obj\Release\SpaceCodeModel.csproj.CopyComplete
+E:\codes\learn-net\SpaceCode\SpaceCodeModel\obj\Release\SpaceCodeModel.dll
+E:\codes\learn-net\SpaceCode\SpaceCodeModel\obj\Release\SpaceCodeModel.pdb

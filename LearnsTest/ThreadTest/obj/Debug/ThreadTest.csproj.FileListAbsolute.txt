@@ -1,0 +1,8 @@
+E:\codes\learn-net\LearnsTest\ThreadTest\bin\Debug\ThreadTest.exe.config
+E:\codes\learn-net\LearnsTest\ThreadTest\bin\Debug\ThreadTest.exe
+E:\codes\learn-net\LearnsTest\ThreadTest\bin\Debug\ThreadTest.pdb
+E:\codes\learn-net\LearnsTest\ThreadTest\obj\Debug\ThreadTest.csproj.AssemblyReference.cache
+E:\codes\learn-net\LearnsTest\ThreadTest\obj\Debug\ThreadTest.csproj.SuggestedBindingRedirects.cache
+E:\codes\learn-net\LearnsTest\ThreadTest\obj\Debug\ThreadTest.csproj.CoreCompileInputs.cache
+E:\codes\learn-net\LearnsTest\ThreadTest\obj\Debug\ThreadTest.exe
+E:\codes\learn-net\LearnsTest\ThreadTest\obj\Debug\ThreadTest.pdb

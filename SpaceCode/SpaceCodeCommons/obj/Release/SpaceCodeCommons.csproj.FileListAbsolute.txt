@@ -1,0 +1,6 @@
+E:\codes\learn-net\SpaceCode\SpaceCodeCommons\bin\Release\SpaceCodeCommons.dll
+E:\codes\learn-net\SpaceCode\SpaceCodeCommons\bin\Release\SpaceCodeCommons.pdb
+E:\codes\learn-net\SpaceCode\SpaceCodeCommons\obj\Release\SpaceCodeCommons.csproj.AssemblyReference.cache
+E:\codes\learn-net\SpaceCode\SpaceCodeCommons\obj\Release\SpaceCodeCommons.csproj.CoreCompileInputs.cache
+E:\codes\learn-net\SpaceCode\SpaceCodeCommons\obj\Release\SpaceCodeCommons.dll
+E:\codes\learn-net\SpaceCode\SpaceCodeCommons\obj\Release\SpaceCodeCommons.pdb

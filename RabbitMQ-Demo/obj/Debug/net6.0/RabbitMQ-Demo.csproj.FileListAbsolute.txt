@@ -1,0 +1,17 @@
+E:\codes\learn-net\RabbitMQ-Demo1\bin\Debug\net6.0\RabbitMQ-Demo.exe
+E:\codes\learn-net\RabbitMQ-Demo1\bin\Debug\net6.0\RabbitMQ-Demo.deps.json
+E:\codes\learn-net\RabbitMQ-Demo1\bin\Debug\net6.0\RabbitMQ-Demo.runtimeconfig.json
+E:\codes\learn-net\RabbitMQ-Demo1\bin\Debug\net6.0\RabbitMQ-Demo.dll
+E:\codes\learn-net\RabbitMQ-Demo1\bin\Debug\net6.0\RabbitMQ-Demo.pdb
+E:\codes\learn-net\RabbitMQ-Demo1\bin\Debug\net6.0\RabbitMQ.Client.dll
+E:\codes\learn-net\RabbitMQ-Demo1\obj\Debug\net6.0\RabbitMQ-Demo.csproj.AssemblyReference.cache
+E:\codes\learn-net\RabbitMQ-Demo1\obj\Debug\net6.0\RabbitMQ-Demo.GeneratedMSBuildEditorConfig.editorconfig
+E:\codes\learn-net\RabbitMQ-Demo1\obj\Debug\net6.0\RabbitMQ-Demo.AssemblyInfoInputs.cache
+E:\codes\learn-net\RabbitMQ-Demo1\obj\Debug\net6.0\RabbitMQ-Demo.AssemblyInfo.cs
+E:\codes\learn-net\RabbitMQ-Demo1\obj\Debug\net6.0\RabbitMQ-Demo.csproj.CoreCompileInputs.cache
+E:\codes\learn-net\RabbitMQ-Demo1\obj\Debug\net6.0\RabbitMQ-Demo.csproj.CopyComplete
+E:\codes\learn-net\RabbitMQ-Demo1\obj\Debug\net6.0\RabbitMQ-Demo.dll
+E:\codes\learn-net\RabbitMQ-Demo1\obj\Debug\net6.0\refint\RabbitMQ-Demo.dll
+E:\codes\learn-net\RabbitMQ-Demo1\obj\Debug\net6.0\RabbitMQ-Demo.pdb
+E:\codes\learn-net\RabbitMQ-Demo1\obj\Debug\net6.0\RabbitMQ-Demo.genruntimeconfig.cache
+E:\codes\learn-net\RabbitMQ-Demo1\obj\Debug\net6.0\ref\RabbitMQ-Demo.dll

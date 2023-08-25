@@ -2,6 +2,7 @@
 //Console.WriteLine("Hello, World!");
 
 
+using LearnsTest;
 using System;
 using System.Collections;
 
@@ -98,17 +99,43 @@ Console.WriteLine(d + "--" + g);
 
 //Console.WriteLine(Fibonacci(5));
 
-Console.WriteLine("enter the nums: ");
-string next = Console.ReadLine();
-while (next != null)
+//Console.WriteLine("enter the nums: ");
+//string next = Console.ReadLine();
+//while (next != null)
+//{
+//    if (next.Equals("q")) break;
+
+//    int n = Convert.ToInt32(next);
+//    Console.WriteLine($"the Fibonacci is:{Fibonacci(n)}");
+//    next = Console.ReadLine();
+//}
+
+
+//Console.WriteLine(DateTime.Now.ToString("yyyyMMdd"));
+
+//int target = 9;
+
+
+//Console.WriteLine(calc(target));
+
+//int calc(int target)
+//{
+//    target += 10;
+//    target -= 13;
+//    target *= 10;
+//    return target;
+//}
+
+List<ManualResetEvent> manualEvents = new List<ManualResetEvent>();
+
+
+void Print(object d)
 {
-    if (next.Equals("q")) break;
+    Console.WriteLine(d + " 开始执行");
+    Thread.Sleep(1000);
 
-    int n = Convert.ToInt32(next);
-    Console.WriteLine($"the Fibonacci is:{Fibonacci(n)}");
-    next = Console.ReadLine();
+    Console.WriteLine(d + " 结束执行");
 }
-
 
 void Bubbling(int[] arrs)
 {

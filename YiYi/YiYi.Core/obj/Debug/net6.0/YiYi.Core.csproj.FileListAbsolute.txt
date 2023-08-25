@@ -1,0 +1,12 @@
+E:\codes\learn-net\YiYi\YiYi.Core\obj\Debug\net6.0\YiYi.Core.csproj.AssemblyReference.cache
+E:\codes\learn-net\YiYi\YiYi.Core\obj\Debug\net6.0\YiYi.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\codes\learn-net\YiYi\YiYi.Core\obj\Debug\net6.0\YiYi.Core.AssemblyInfoInputs.cache
+E:\codes\learn-net\YiYi\YiYi.Core\obj\Debug\net6.0\YiYi.Core.AssemblyInfo.cs
+E:\codes\learn-net\YiYi\YiYi.Core\obj\Debug\net6.0\YiYi.Core.csproj.CoreCompileInputs.cache
+E:\codes\learn-net\YiYi\YiYi.Core\bin\Debug\net6.0\YiYi.Core.deps.json
+E:\codes\learn-net\YiYi\YiYi.Core\bin\Debug\net6.0\YiYi.Core.dll
+E:\codes\learn-net\YiYi\YiYi.Core\bin\Debug\net6.0\YiYi.Core.pdb
+E:\codes\learn-net\YiYi\YiYi.Core\obj\Debug\net6.0\YiYi.Core.dll
+E:\codes\learn-net\YiYi\YiYi.Core\obj\Debug\net6.0\refint\YiYi.Core.dll
+E:\codes\learn-net\YiYi\YiYi.Core\obj\Debug\net6.0\YiYi.Core.pdb
+E:\codes\learn-net\YiYi\YiYi.Core\obj\Debug\net6.0\ref\YiYi.Core.dll

@@ -1,0 +1,5 @@
+E:\codes\learn-net\RabbitMQ-Demo1\obj\Debug\net6.0\RabbitMQ-Demo.csproj.AssemblyReference.cache
+E:\codes\learn-net\RabbitMQ-Demo1\obj\Debug\net6.0\RabbitMQ-Demo.GeneratedMSBuildEditorConfig.editorconfig
+E:\codes\learn-net\RabbitMQ-Demo1\obj\Debug\net6.0\RabbitMQ-Demo.AssemblyInfoInputs.cache
+E:\codes\learn-net\RabbitMQ-Demo1\obj\Debug\net6.0\RabbitMQ-Demo.AssemblyInfo.cs
+E:\codes\learn-net\RabbitMQ-Demo1\obj\Debug\net6.0\RabbitMQ-Demo.csproj.CoreCompileInputs.cache

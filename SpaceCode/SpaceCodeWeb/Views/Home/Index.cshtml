@@ -1,0 +1,99 @@
+﻿
+@{
+    ViewBag.Title = "数据列表";
+    //Layout = null;
+}
+
+
+<link href="~/Scripts/jquery-easyui-1.7.0/themes/default/easyui.css" rel="stylesheet" />
+<link href="~/Scripts/jquery-easyui-1.7.0/themes/icon.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/jquery-easyui-1.7.0/jquery.easyui.min.js"></script>
+@*<script src="~/Scripts/jquery-easyui-1.7.0/plugins/jquery.messager.js"></script>*@
+<script src="~/Scripts/jquery-easyui-1.7.0/locale/easyui-lang-zh_CN.js"></script>
+
+<div id="container">
+
+    <input id="filebox" name="filebox" class="easyui-filebox" data-options="prompt:'选择文件', buttonText:'上传文件', onChange:UploadFile">
+
+    <div>
+        <label title="对数据进行 +10、-10、*10 操作">批处理数据:</label>
+        <input id="changebox" class="easyui-switchbutton" width="200">
+    </div>
+    <div id="box" style="width :600px; background:orange;">
+        <!-- 内容部分 -->
+    </div>
+
+</div>
+
+<script>
+
+    $('#box').datagrid({
+            title: '数据列表',
+            url: '@(Url.Content("~/Home/GetData"))',
+            columns: [[
+            {
+                field: 'index', title: 'Index', width: 50, formatter: function (value, row, index) {
+                    return index + 1;
+                }
+            },
+            //{ field: 'Id', title: 'Id', width: 100 },
+            { field: 'Data', title: 'Data', width: 100 }
+        ]],
+        pagination: true
+    });
+
+
+
+    function UploadFile() {
+        var formData = new FormData();
+        formData.append("file", $('#filebox').next().find('input[type=file]')[0].files[0]);
+        $.ajax({
+            url: '@(Url.Content("~/Home/Upload"))', //单文件上传
+            type: 'POST',
+            processData: false,
+            contentType: false,
+            data: formData,
+            success: function (json) {
+                if (!json || json.result == false) {
+                    alert('提示', '上传失败！');
+                    return;
+                }
+
+                var changeData = $('#changebox').prop("checked");
+                var path = json.Result
+                $.ajax({
+                    url: '@(Url.Content("~/Home/UploadData"))',
+                    type: 'POST',
+                    dataType:'json',
+                    data: {
+                        'fileName': path,
+                        'change': changeData
+                    },
+                    success: function (res) {
+                        if (!res || res.Result == false) {
+                            var msg = res.Message ? res.Message : '上传失败';
+                            alert(msg);
+                            return;
+                        }
+                        if (changeData) {
+                            alert('结果求和:' + res.Result);
+                        }
+                        window.location.reload();
+                    }, error: function (xhr, status, error) {                        
+                        alert("操作失败," + error);
+                    }
+                })
+            },
+            error: function (xhr, status, error) {
+                alert('操作失败');
+            }
+        });
+    }
+
+    function clearFile() {
+        $('#filebox').next().find('input[type=file]')[0].files[0] = null;
+    }
+
+
+</script>
