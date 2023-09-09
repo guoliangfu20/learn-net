@@ -35,17 +35,33 @@
 /EFCoreDemo/EFCoreDemo/obj/
 
 /LearnsTest/LearnsTest/bin/
-/LearnsTest/LearnsTes/obj/
+/LearnsTest/LearnsTest/obj/
 
 
 /todoDockers/todoDockers/bin/
 /todoDockers/todoDockers/obj/
 /todoDockers/todoDockers/Properties/
 
-/LearnsTest/LearnsTest/obj/
 /LearnsTest/LogTest/obj/
 
 /LearnsTest/SpaceCode/obj/
 /LearnsTest/SpaceCode/bin/
 
+/RabbitMQ-Demo1/bin/
+/RabbitMQ-Demo1/obj/
+
+/StartDemo/StartDemo/bin/
+/StartDemo/StartDemo/obj/
+
+/BCTests/bin/
+/BCTests/obj/
+
+/EFCoreLearn/bin/
+/EFCoreLearn/obj/
+
+/EFCoreLearn/EFCoreLearn/bin/
+/EFCoreLearn/EFCoreLearn/obj/
+
+/EFCoreLearn/EFCoreSqlLearn/bin/
+/EFCoreLearn/EFCoreSqlLearn/obj/
 
