@@ -18,21 +18,22 @@ namespace BCTests.Controllers
         public StudentController(ILogger<StudentController> logger)
         {
             _logger = logger;
-            Students.AddRange(Enumerable.Range(1, 10));
+            Students.AddRange(Enumerable.Range(1, 1000));
         }
 
         /// <summary>
         /// 1.随机产生考生列表，考生数量在20以上。例如：L0, L1, …, Ln-1, Ln
         /// </summary>
-        /// <param name="count">列表长度</param>
+        /// <param name="count">需要生成列表的长度</param>
         /// <returns></returns>
         [HttpGet("getList")]
         public IEnumerable<int> GetList(int count)
         {
+            count = count <= 1 ? 1 : count;
             _logger.LogInformation($"请求获取随机考生列表; -- start  --; 请求参数：count:{count}");
             var list = GetRandom(Students, count)
                 .ToArray();
-            _logger.LogInformation($"请求获取随机考生列表; -- end  --; 请求参数：count:{count}; 返回结果:{JsonConvert.SerializeObject(list)}");
+            _logger.LogInformation($"请求获取随机考生列表; -- end  --; 返回结果:{JsonConvert.SerializeObject(list)}");
             return list;
         }
 
@@ -61,7 +62,6 @@ namespace BCTests.Controllers
         private List<int> GetRandom(List<int> list, int count = 1)
         {
             if (count <= 0
-                || count == 1
                 || list == null
                 || list.Count < count)
             {
@@ -69,7 +69,7 @@ namespace BCTests.Controllers
             }
 
             Random random = new Random();
-            List<int> result = new List<int>();
+            List<int> result = new();
             for (int i = 0; i < count; i++)
             {
                 result.Add(GetOne(result, list, random));
@@ -77,6 +77,13 @@ namespace BCTests.Controllers
             return result;
         }
 
+        /// <summary>
+        /// 使用递归(防止重复)获取数据.
+        /// </summary>
+        /// <param name="result">结果数据</param>
+        /// <param name="list">目标数据源</param>
+        /// <param name="random">随机值</param>
+        /// <returns></returns>
         private int GetOne(List<int> result, List<int> list, Random random)
         {
             int o = list[random.Next(0, list.Count)];
@@ -92,7 +99,11 @@ namespace BCTests.Controllers
         /// <returns></returns>
         private List<int> GetNew(List<int> list)
         {
-            if (list == null || list.Count == 1) return list;
+            if (list == null
+                || list.Count == 1)
+            {
+                return list;
+            }
 
             /* 
              * L0 , Ln , 
@@ -106,7 +117,7 @@ namespace BCTests.Controllers
              * 6=list.Count-1
             */
 
-            // 考虑当列表总数为奇数，则下面逻辑会出现数据重复
+            // 考虑当列表总数为奇数，则中间值会重复计算，此处做处理
             int countIndex = list.Count % 2 == 1 ? list.Count - 1 : list.Count - 1;
 
             List<int> result = new();

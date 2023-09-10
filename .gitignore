@@ -55,6 +55,7 @@
 
 /BCTests/bin/
 /BCTests/obj/
+/BCTests/Properties/
 
 /EFCoreLearn/bin/
 /EFCoreLearn/obj/
@@ -64,4 +65,7 @@
 
 /EFCoreLearn/EFCoreSqlLearn/bin/
 /EFCoreLearn/EFCoreSqlLearn/obj/
+
+/EFCoreLearn/ConsoleApp1/bin/
+/EFCoreLearn/ConsoleApp1/obj/
 
