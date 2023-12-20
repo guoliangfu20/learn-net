@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogTest", "LogTest\LogTest.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTest", "ThreadTest\ThreadTest.csproj", "{4156AA57-B966-4CED-8993-96D480A4CE5A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetTest", "NetTest\NetTest.csproj", "{94142A91-3209-40AB-A2C8-2CFDC75D7222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{67D7A975-EA34-4443-9B70-13E4FD7B86E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{4156AA57-B966-4CED-8993-96D480A4CE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4156AA57-B966-4CED-8993-96D480A4CE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4156AA57-B966-4CED-8993-96D480A4CE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94142A91-3209-40AB-A2C8-2CFDC75D7222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94142A91-3209-40AB-A2C8-2CFDC75D7222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94142A91-3209-40AB-A2C8-2CFDC75D7222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94142A91-3209-40AB-A2C8-2CFDC75D7222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D7A975-EA34-4443-9B70-13E4FD7B86E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D7A975-EA34-4443-9B70-13E4FD7B86E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D7A975-EA34-4443-9B70-13E4FD7B86E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D7A975-EA34-4443-9B70-13E4FD7B86E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
